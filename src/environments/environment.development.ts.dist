@@ -1,0 +1,8 @@
+// Duplicate this file and rename it to environment.development.ts
+
+export const environment = {
+  production: false,
+  server: 'https://bastion-dev.alaxione.fr',
+  api: 'https://bastion-dev.alaxione.fr/api',
+  // api: 'http://alx-bastion.local/api', // You preference.
+};

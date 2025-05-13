@@ -1,0 +1,116 @@
+:root {
+  --v1-darkblue: #134058;
+  --v1-skyblue: #5d9ad4;
+  --v1-archive-hover-bg: #cadcec;
+  --v1-search-bg: #f0f6fa;
+  --v1-grey-100: #d5d5d9;
+  --v1-grey-200: #8a8d99;
+  --v1-grey-400: #8f939f;
+  --v1-grey-500: #8e929e;
+
+  --v1-grey-input: #c8c8c8;
+  --v1-user-woman-bg: #e696d6;
+  --v1-user-man-bg: #96e6e4;
+  --v1-archive-text: #0ab342;
+  --v1-success-text: #1fae66;
+  --v1-success-subtle: #e4f7ed;
+  --v1-bg-sidebar: #ddeaf6;
+  --v1-alert: #e83127;
+  --v1-alert-subtle: #fce8e7;
+  --v1-intern-chat-border: #dddfe5;
+  --v1-intern-chat-text: #464d69;
+  --v1-pinned: #7d8296;
+  --v1-tooltip: #2a5368;
+  --v1-fade-white: #f6f9fd;
+  --v1-patterns-dark: #13405a;
+  --v1-comment-blue: #5d9ad4;
+  --v1-link-blue: #6ea4d7;
+
+  --v1-aquablue: #20cbd9;
+  --v1-aquablue-light: #8fe1e7;
+  --v1-aquablue-light: #8fe1e7;
+  --v1-aquablue-200: #d4f3f6;
+  --v1-aquablue-100: #f0fbfc;
+  --v1-pattern-tip: #121a39: ;
+
+  --v1-pattern-tip: #121a39: ;
+  --v1-gold: #e89527;
+  --v1-gold-subtle: #fff6ea;
+
+  --v1-ui-blue: #5d9ad4;
+  --v1-ui-dark-gray: #777777;
+  --v1-info-blue: #2781e8;
+  --v1-info-subtle: #e8f2fd;
+}
+
+.v1-info-blue {
+  color: var(--v1-info-blue) !important;
+}
+
+.v1-comment-blue {
+  color: var(--v1-comment-blue) !important;
+}
+
+.v1-link-blue {
+  color: var(--v1-link-blue) !important;
+}
+
+.v1-success-text {
+  color: var(--v1-success-text) !important;
+}
+
+.v1-success-border {
+  border: 1px solid var(--v1-success-text) !important;
+}
+
+.v1-ui-blue {
+  color: var(--v1-ui-blue) !important;
+}
+
+.v1-darkblue {
+  color: var(--v1-darkblue) !important;
+}
+
+.v1-ui-blue-bg {
+  background: var(--v1-ui-blue) !important;
+}
+
+.v1-skyblue {
+  color: var(--v1-skyblue) !important;
+}
+
+.v1-skyblue-border {
+  border: 1px solid var(--v1-skyblue) !important;
+}
+
+.v1-skyblue-bg {
+  background: var(--v1-skyblue) !important;
+}
+
+.v1-alert {
+  color: var(--v1-alert) !important;
+}
+
+.v1-alert-bg {
+  background: var(--v1-alert) !important;
+}
+
+.v1-alert-border {
+  border: 1px solid var(--v1-alert) !important;
+}
+
+.v1-gold {
+  color: var(--v1-gold) !important;
+}
+
+.v1-grey-500 {
+  color: var(--v1-grey-500) !important;
+}
+
+.v1-bg-sidebar-background {
+  background: var(--v1-bg-sidebar) !important;
+}
+
+.v1-grey-200 {
+  color: var(--v1-grey-200) !important;
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Groupe_52" data-name="Groupe 52" transform="translate(-274 -260)">
+    <g id="centre_medical" transform="translate(-337 124)">
+      <circle id="Ellipse_75" data-name="Ellipse 75" cx="24" cy="24" r="24" transform="translate(611 136)" fill="#20cbd9"/>
+    </g>
+    <g id="house-medical-solid" transform="translate(278 264)">
+      <rect id="Rectangle_1691" data-name="Rectangle 1691" width="40" height="40" fill="none"/>
+      <path id="house-medical-solid-2" data-name="house-medical-solid" d="M31.159,16.479a1.847,1.847,0,0,0,1.834-1.839,1.57,1.57,0,0,0-.63-1.375L17.734.4a1.9,1.9,0,0,0-1.2-.4A1.653,1.653,0,0,0,15.27.458L.573,13.264A1.862,1.862,0,0,0,0,14.64a1.815,1.815,0,0,0,1.834,1.839H3.667v9.191a3.67,3.67,0,0,0,3.667,3.667H25.7a3.663,3.663,0,0,0,3.667-3.684l-.04-9.179h1.834Zm-16.49-4.561A.919.919,0,0,1,15.585,11h1.834a.919.919,0,0,1,.917.917v2.75h2.75a.919.919,0,0,1,.917.917v1.834a.919.919,0,0,1-.917.917h-2.75v2.75a.919.919,0,0,1-.917.917H15.585a.919.919,0,0,1-.917-.917v-2.75h-2.75A.919.919,0,0,1,11,17.419V15.585a.919.919,0,0,1,.917-.917h2.75Z" transform="translate(3.5 3.332)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

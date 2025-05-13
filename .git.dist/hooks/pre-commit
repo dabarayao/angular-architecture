@@ -1,0 +1,92 @@
+#!/bin/sh
+
+echo "${blue}"
+echo "Running pre-commit hook"
+echo "===================================="
+echo "${reset}"
+
+prettier=0
+tslint=0
+test=0
+
+
+echo "Running Prettier"
+echo "===================================="
+echo ""
+echo ""
+
+test="npx prettier ./src --check"
+$test
+RESULT=$?
+
+if [ $RESULT -ne 0 ]
+then
+    prettier=1
+fi
+
+echo ""
+echo "Running Linter"
+echo "===================================="
+echo ""
+
+npm run lint
+RESULT=$?
+
+if [ $RESULT -ne 0 ]
+then
+    tslint=1
+fi
+
+
+error_found=$((tslint+prettier))
+
+if [ $error_found -ne 0 ];
+then
+  echo "${red}"
+  echo "=========================================="
+  echo "Pre-commit returns error, fix them all (test abording)"
+  echo "=========================================="
+  echo "${reset}"
+  exit 1
+fi
+
+
+# echo ""
+# echo "Running Test"
+# echo "===================================="
+# echo ""
+
+# ng test --no-watch --no-progress --browsers=ChromeHeadless
+# RESULT=$?
+
+# if [ $RESULT -ne 0 ]
+# then
+#     test=1
+# fi
+
+
+# if [ $test -ne 0 ];
+# then
+#   echo "${red}"
+#   echo "=========================================="
+#   echo "Pre-commit returns error, fix them all)"
+#   echo "=========================================="
+#   echo "${reset}"
+#   exit 1
+# fi
+
+#   echo "${green}"
+#   echo "=========================================="
+#   echo "Clean code ! =D , Code commited, you can push it !"
+#   echo "=========================================="
+#   echo "${reset}"
+# exit 0
+
+
+ echo "${green}"
+echo "=========================================="
+echo "Clean code ! =D , Code commited, you can push it !"
+echo "=========================================="
+echo "${reset}"
+
+exit 0
